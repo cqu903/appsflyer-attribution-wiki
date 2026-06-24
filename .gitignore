@@ -1,0 +1,16 @@
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Local Obsidian workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Secrets / local env
+.env
+.env.*
+*.secret
+*.pem
+*.key
+credentials.json

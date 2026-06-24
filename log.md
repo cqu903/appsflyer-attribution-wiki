@@ -1,0 +1,22 @@
+# Wiki Log
+
+> Chronological record of all wiki actions. Append-only.
+> Format: `## [YYYY-MM-DD] action | subject`
+> Actions: ingest, update, query, lint, create, archive, delete
+
+## [2026-06-24] create | AppsFlyer attribution wiki initialized
+- Domain: AppsFlyer attribution, Google Ads / Meta ads event postbacks, X Wallet implementation.
+- Created schema, index, log, raw source archive, entity/concept/comparison/query pages.
+
+## [2026-06-24] ingest | AppsFlyer Help Center section 6551113099153 plus Google Ads and Meta ads integration docs
+- Source section: https://support.appsflyer.com/hc/zh-cn/sections/6551113099153
+- Added related sections for user goal: Meta ads and Google Ads AppsFlyer integrations.
+- Raw articles captured: 44 files under raw/articles/.
+- Wiki pages created: 13.
+- Key synthesis pages: [[xwallet-implementation-checklist]], [[postback-and-event-mapping]], [[lookback-window-strategy]], [[data-discrepancy-playbook]].
+
+## [2026-06-24] ingest | X Wallet AppsFlyer event source scope discussion
+- Raw source created: raw/articles/20260624-xwallet-af-postback-source-scope-discussion.md
+- New concept page created: [[event-source-scope-and-learning]]
+- Updated pages: [[postback-and-event-mapping]], [[xwallet-event-taxonomy]], [[ios-privacy-skan-aem]], index.md
+- Extracted decision: selected mid-funnel events can use all media sources during cold start; deep sensitive events should be governed separately and may be narrowed to this-partner-only.
